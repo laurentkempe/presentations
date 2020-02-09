@@ -28,3 +28,4 @@ Write-Output ""
 
 Write-Host "Presentation sucessfully set up in '.\docs\$PresentationName'" -ForegroundColor Green
 Write-Host "Run 'npm run serve' to open it in your browser."
+Write-Host "Edit your presentation then push it to Github!"
