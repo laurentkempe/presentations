@@ -20,7 +20,7 @@ Write-Host "Cloning Reveal.js Starter repository..."
 & git clone "https://github.com/laurentkempe/reveal.js-starter" .\docs\$PresentationName
 Set-Location .\docs\$PresentationName
 Remove-Item -Recurse -Force .git
-Remove-Item README.md, js\.gitkeep, css\.gitkeep, lib\.gitkeep, img\.gitkeep, plugin\.gitkeep
+Remove-Item bootstrap.sh, bootstrap.ps1, README.md, LICENSE, js\.gitkeep, css\.gitkeep, lib\.gitkeep, img\.gitkeep, plugin\.gitkeep
 
 Write-Output "Installing dependencies..."
 & npm install
