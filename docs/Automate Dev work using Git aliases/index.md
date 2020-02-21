@@ -148,7 +148,7 @@ Gives access to command line variables:
 * **$2** is the 2nd parameter passed to the command...
 * **$@** means all command line parameters passed.
 
-Allow to chain git commands with **&&** and use the entire Unix toolkit.
+Allow to chain git commands with **&&** and uses the entire Unix toolkit.
 
 ---
 
