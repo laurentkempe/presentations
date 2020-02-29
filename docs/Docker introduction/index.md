@@ -146,8 +146,11 @@ Note:
 # Docker daemon
 
 * Listens for Docker API requests
-* Manages Docker objects such as images, containers, networks, and volumes
+* Manages Docker objects
+  * images, containers, networks and volumes
 * Can communicate with other daemons to manage Docker services
+
+![Docker architecture](https://docs.docker.com/engine/images/architecture.svg)<!-- .element style="border: 0; background: None; box-shadow: None; width:60%;" -->
 
 ---
 
@@ -159,7 +162,7 @@ Note:
 
 > docker run -i -t ubuntu /bin/bash
 
- Client sends these commands to dockerd, which carries them out.
+ ![Docker architecture](https://docs.docker.com/engine/images/architecture.svg)<!-- .element style="border: 0; background: None; box-shadow: None; width:60%;" -->
 
 ---
 
@@ -171,16 +174,18 @@ Note:
 
 > docker push
 
-Images are pushed/pulled from your configured registry.
+![Docker architecture](https://docs.docker.com/engine/images/architecture.svg)<!-- .element style="border: 0; background: None; box-shadow: None; width:60%;" -->
 
 ---
 
 # Docker images
 
-* A read-only template, with instructions for creating a Docker container
-* Often, based on another image, with some additional customization
-* Create your own images or use those created by others and published in a registry
+* Read-only template, instructions for creating a Docker container
+* Often, based on another image
+* Create your own or use one created by others
 * Created from a Dockerfile
+
+![Docker architecture](https://docs.docker.com/engine/images/architecture.svg)<!-- .element style="border: 0; background: None; box-shadow: None; width:60%;" -->
 
 Note:
 
@@ -188,11 +193,74 @@ Note:
 
 ---
 
-# Docker file
+# Dockerfile
 
-* A simple syntax for defining the steps needed to create the image and run it
-* Each instruction in a Dockerfile creates a layer in the image.
-* When you change the Dockerfile and rebuild the image, only those layers which have changed are rebuilt. This is part of what makes images so lightweight, small, and fast, when compared to other virtualization technologies.
+* Simple syntax for defining the steps needed to create an image and run it
+* Each instruction creates a layer in the image
+* When changed and image is rebuilt, only layers which have changed are rebuilt
+
+Note:
+
+This is what makes images so lightweight, small, and fast, when compared to other virtualization technologies.
+
+---
+
+# Multi-stage Dockerfile
+
+```Dockerfile
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1 AS base
+WORKDIR /app
+EXPOSE 80
+EXPOSE 443
+
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
+WORKDIR /src
+COPY ["webapi.csproj", "./"]
+RUN dotnet restore "./webapi.csproj"
+COPY . .
+WORKDIR "/src/."
+RUN dotnet build "webapi.csproj" -c Release -o /app/build
+
+FROM build AS publish
+RUN dotnet publish "webapi.csproj" -c Release -o /app/publish
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app/publish .
+ENTRYPOINT ["dotnet", "webapi.dll"]
+```
+
+---
+
+# Docker container
+
+* Runnable instance of an image
+* Create, start, stop, move, or delete a container
+* Connects to one or more networks, attach storage
+
+![Docker architecture](https://docs.docker.com/engine/images/architecture.svg)<!-- .element style="border: 0; background: None; box-shadow: None; width:60%;" -->
+
+Note:
+
+By default, a container is relatively well isolated from other containers and its host machine. You can control how isolated a container’s network, storage, or other underlying subsystems are from other containers or from the host machine.
+
+A container is defined by its image as well as any configuration options you provide to it when you create or start it. When a container is removed, any changes to its state that are not stored in persistent storage disappear.
+
+---
+
+# 💗 Demo 🚀
+
+---
+
+<!-- .slide: data-background-image="https://live.staticflickr.com/65535/49476819197_ce5559e3e6_o.jpg" -->
+
+# Thank You! 🚀
+
+## [Laurent Kempé](https://laurentkempe.com)
+
+---
+
+# Questions ❓
 
 ---
 
@@ -203,11 +271,3 @@ Note:
 [Docker overview](https://docs.docker.com/engine/docker-overview/)
 
 [Docker resources](https://www.docker.com/resources)
-
----
-
-<!-- .slide: data-background-image="https://live.staticflickr.com/65535/49476819197_ce5559e3e6_o.jpg" -->
-
-# Thank You! 🚀
-
-## [Laurent Kempé](https://laurentkempe.com)
