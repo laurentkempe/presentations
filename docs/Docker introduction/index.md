@@ -248,6 +248,34 @@ A container is defined by its image as well as any configuration options you pro
 
 ---
 
+# Docker compose
+
+* YAML file to configure your application's services
+* Single command to create and start/stop all your services
+
+> docker-compose up
+
+---
+
+# Docker compose file
+
+docker-compose.yml
+
+```yml
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+    - "5000:5000"
+    links:
+    - redis
+  redis:
+    image: "redis:alpine"
+```
+
+---
+
 # 💗 Demo 🚀
 
 ---
