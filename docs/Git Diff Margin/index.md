@@ -15,6 +15,7 @@ by [Laurent Kempé](https://laurentkempe.com)
 
 * C# and .NET fan since beta in 2001
 * Software engineer Team Lead at [Innoveo](https://www.innoveo.com/)
+* Blog [https://laurentkempe.com/](https://laurentkempe.com/)
 * Github [@laurentkempe](https://github.com/laurentkempe)
 * Twitter [@laurentkempe](https://twitter.com/laurentkempe)
 * Creator of Tech Head Brothers .NET French portal
@@ -75,14 +76,18 @@ So, I implemented [Git Diff Margin](https://marketplace.visualstudio.com/items?i
 
 ---
 
+<!-- .slide: data-background-image="https://live.staticflickr.com/65535/49476819197_ce5559e3e6_o.jpg" -->
+
 # References 🔗
 
-## Git Diff Margin 
+## Git Diff Margin
 
 [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=LaurentKempe.GitDiffMargin) 🚀
 
 [Source code on Github](https://github.com/laurentkempe/GitDiffMargin) 📄
 
 ---
+
+<!-- .slide: data-background-image="https://live.staticflickr.com/65535/49476819197_ce5559e3e6_o.jpg" -->
 
 # Questions ❓
