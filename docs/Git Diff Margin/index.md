@@ -15,11 +15,12 @@ by [Laurent Kempé](https://laurentkempe.com)
 
 * C# and .NET fan since beta in 2001
 * Software engineer Team Lead at [Innoveo](https://www.innoveo.com/)
-* Blog [https://laurentkempe.com/](https://laurentkempe.com/)
-* Github [@laurentkempe](https://github.com/laurentkempe)
-* Twitter [@laurentkempe](https://twitter.com/laurentkempe)
-* Creator of Tech Head Brothers .NET French portal
+* Founder of Tech Head Brothers .NET French portal
 * Microsoft MVP in C# and ASP.NET for 10 years
+
+<i class="fas fa-rss-square"></i> [https://laurentkempe.com/](https://laurentkempe.com/)
+
+<i class="fab fa-twitter"></i> [@laurentkempe](https://twitter.com/laurentkempe) - <i class="fab fa-github"></i> [@laurentkempe](https://github.com/laurentkempe)
 
 ---
 
@@ -27,7 +28,7 @@ by [Laurent Kempé](https://laurentkempe.com)
 
 * 💗 [JetBrains](https://www.jetbrains.com/) tools from their beginning
 * Veteran in [.NET C#](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/introduction-to-the-csharp-language-and-the-net-framework) using JetBrains [ReSharper](https://www.jetbrains.com/resharper/)
-* As Java dev influenced my company for [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+* As Java Dev influenced my company for [IntelliJ IDEA](https://www.jetbrains.com/idea/)
 * Back to .NET, missing some Git tools in [Visual Studio](https://visualstudio.microsoft.com/vs/)
 
 So, I implemented [Git Diff Margin](https://marketplace.visualstudio.com/items?itemName=LaurentKempe.GitDiffMargin) as an [Open Source](https://github.com/laurentkempe/GitDiffMargin) Visual Studio extension 🚀
@@ -45,11 +46,21 @@ So, I implemented [Git Diff Margin](https://marketplace.visualstudio.com/items?i
 * For Visual Studio 2019, 2017, 2015, 2013 & 2012
 
 ![Git Diff Margin](https://laurentkempe.gallerycdn.vsassets.io/extensions/laurentkempe/gitdiffmargin/3.10.2.268/1576400393832/142621/1/gitdiffmargin-preview.png)
-<!-- .element style="border: 0; background: None; box-shadow: None; width:100%; " -->
+<!-- .element style="border: 0; background: None; box-shadow: None;" -->
 
 ---
 
 # 💗 Demo 🚀
+
+---
+
+# Build 🏫
+
+* Source code [on Github](https://github.com/laurentkempe/GitDiffMargin) <i class="fab fa-github"></i>
+* Continuous integration [using Azure DevOps](https://dev.azure.com/techheadbrothers/GitDiffMargin/_build?definitionId=7&_a=summary)
+* Release process [using Azure DevOps](https://dev.azure.com/techheadbrothers/GitDiffMargin/_release?_a=deployments&view=mine&definitionId=1)
+  * To [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=LaurentKempe.GitDiffMargin)
+  * To [Chocolatey](https://chocolatey.org/packages/GitDiffMargin)
 
 ---
 
@@ -84,7 +95,9 @@ So, I implemented [Git Diff Margin](https://marketplace.visualstudio.com/items?i
 
 [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=LaurentKempe.GitDiffMargin) 🚀
 
-[Source code on Github](https://github.com/laurentkempe/GitDiffMargin) 📄
+[Chocolatey](https://chocolatey.org/packages/GitDiffMargin) 🍫
+
+[Source code on Github](https://github.com/laurentkempe/GitDiffMargin) <i class="fab fa-github"></i>
 
 ---
 
