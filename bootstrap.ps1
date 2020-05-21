@@ -16,7 +16,7 @@ Param(
     [string]$PresentationName
 )
 
-Write-Host "Cloning Reveal.js Starter repository..."
+Write-Host "Cloning laurentkempe/reveal.js-starter repository..."
 & git clone "https://github.com/laurentkempe/reveal.js-starter" .\docs\$PresentationName
 Set-Location .\docs\$PresentationName
 Remove-Item -Recurse -Force .git
