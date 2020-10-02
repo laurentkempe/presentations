@@ -11,7 +11,7 @@ Find out more about me and how to contact me:
 
 ## Presentation dates
 
-* 30 Sep 2020 - [Github Codespaces](https://laurentkempe.com/presentations/https://laurentkempe.com/presentations/Github%20Codespaces/#/)
+* 30 Sep 2020 - [Github Codespaces](https://laurentkempe.com/presentations/Github%20Codespaces/#/)
 * 20 May 2020 - [MAUI - .NET Multi-platform app UI](https://laurentkempe.com/presentations//dotNET%20Multi-platform%20App%20UI/#/)
 * 22 April 2020 - [Git Diff Margin](https://laurentkempe.com/presentations/Git%20Diff%20Margin/#/)
 * 13 March 2020 - [Docker introduction](https://laurentkempe.com/presentations/Docker%20introduction/index.html#/)
