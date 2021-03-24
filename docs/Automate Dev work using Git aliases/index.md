@@ -7,6 +7,8 @@ by [Laurent Kempé](https://laurentkempe.com)
 
 23 Jan. 2020
 
+<i class="fab fa-twitter"></i> [@laurentkempe](https://twitter.com/laurentkempe) - <i class="fab fa-github"></i> [@laurentkempe](https://github.com/laurentkempe)
+
 ---
 
 # why?
