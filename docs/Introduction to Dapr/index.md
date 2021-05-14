@@ -12,7 +12,7 @@ by [Laurent Kempé](https://laurentkempe.com)
 
 ---
 
-<!-- .slide: data-background-image="/img/Dapr Presentation.jpg" -->
+<!-- .slide: data-background-image="img/Dapr Presentation.jpg" -->
 
 ---
 
