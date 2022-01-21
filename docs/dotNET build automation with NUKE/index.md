@@ -44,6 +44,7 @@ All running using [TeamCity](https://www.jetbrains.com/teamcity/)!
 ## Why NUKE 💣 (Feb 2021)
 
 * It is real [C#](https://docs.microsoft.com/en-us/dotnet/csharp/) 😍
+* No more magic strings, no more CTRL+F 💝 
 * All build pipelines in one .NET project 🥰
   * Code navigation, Refactoring, Debugging 😻
   * IDE plugin (Rider, Visual Studio, VS Code) 🤩
