@@ -86,17 +86,13 @@ Rider IDE integration with plugin
 
 ---
 
-> Here is a nice styled blockquote
+# References 📘
 
----
+* [NUKE website](https://nuke.build/)
+* [Rider NUKE plugin](https://plugins.jetbrains.com/plugin/10803-nuke-support)
+* [NUKE <i class="fab fa-twitter"></i>](https://twitter.com/nukebuildnet)
 
-# Slide 3
-
-```ruby
-def addition
-  a+b
-end
-```
+* [Cake Presentation (C# Make)](https://sway.office.com/G8xS5gVqbwOA9euI)
 
 ---
 
@@ -107,13 +103,3 @@ end
 ## [Laurent Kempé](https://laurentkempe.com)
 
 <i class="fab fa-twitter"></i> [@laurentkempe](https://twitter.com/laurentkempe) - <i class="fab fa-github"></i> [@laurentkempe](https://github.com/laurentkempe)
-
----
-
-# References 📘
-
-* [NUKE website](https://nuke.build/)
-* [Rider NUKE plugin](https://plugins.jetbrains.com/plugin/10803-nuke-support)
-* [NUKE <i class="fab fa-twitter"></i>](https://twitter.com/nukebuildnet)
-
-* [Cake Presentation (C# Make)](https://sway.office.com/G8xS5gVqbwOA9euI)
