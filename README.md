@@ -11,6 +11,7 @@ Find out more about me and how to contact me:
 
 ## Presentation dates
 
+* 2 February 2022 - [.NET build automation with NUKE](https://laurentkempe.com/presentations/dotNET%20build%20automation%20with%20NUKE/#/)
 * 9 June 2021 - [Dapr, Distributed Application Runtime, Dapr .NET SDK (Slides)](https://laurentkempe.com/presentations/Introduction%20to%20Dapr%20.NET%20SDK/Introduction%20to%20Dapr%20.NET%20SDK.pptx)
 * 19 May 2021 - [Introduction to Dapr, Distributed Application Runtime (Slides)](https://laurentkempe.com/presentations/Introduction%20to%20Dapr/Introduction%20to%20Dapr.pptx)
 * 30 Sep 2020 - [Github Codespaces](https://laurentkempe.com/presentations/Github%20Codespaces/#/)
@@ -21,5 +22,4 @@ Find out more about me and how to contact me:
 
 ## WIP
 
-* 2 February 2022 ? - [.NET build automation with NUKE]()
 * ? - [Onion architecture with .NET 6]()
