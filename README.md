@@ -22,4 +22,5 @@ Find out more about me and how to contact me:
 
 ## WIP
 
+* 23 February 2022 - [Statiq .NET static generation platform]()
 * ? - [Onion architecture with .NET 6]()
