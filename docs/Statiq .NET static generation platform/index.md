@@ -30,7 +30,9 @@ by [Laurent Kempé](https://laurentkempe.com)
 * My **pains** with node <i class="fa-brands fa-node-js"></i> and all npm dependencies
 * All updates were difficult and **time-consuming**
 
-📢️ Will open source it when it is done!
+&nbsp;
+
+📢️ Will [open source](https://github.com/laurentkempe/StatiqBlog) <i class="fab fa-github"></i> it when it is done!
 
 ---
 
